@@ -1,0 +1,51 @@
+body{
+	background: white;
+	font-family: Calibri;
+	font-style: italic;
+
+}
+.information{display:none}
+.panels
+{
+	display: inline-block;
+	width: 1274px;
+	padding: 20px;
+	background: rgba(0,0,0,.2);
+	margin: 0px 15px 0px 15px;
+	transition: background .3s;
+		
+}
+.panels:hover
+{
+	background: rgba(0,0,0,.3);
+}
+.sec
+{
+	display: inline-block;
+	height: 120px;
+	background: #00131A;
+	color: white;
+	cursor: pointer;
+	margin: 2px;
+	overflow: hidden;
+	position:relative;
+}
+.sec div
+{
+	position: absolute;
+	width: 90%;
+	height: 120px;
+	padding: 10px 5% 10px 5%;
+	margin: 0px;
+	transition: top .6s ease-out;
+	-webkit-transition: top .6s ease-out;	
+}
+.sec div:hover{opacity: 1;}
+.half
+{
+	width: 120px;
+}
+.full
+{
+	width: 244px;
+}
