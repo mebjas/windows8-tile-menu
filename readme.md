@@ -5,30 +5,30 @@ windows8 tile menu
 
 you need to include the scripts in ./js/ directory like
 <pre>
-<script src="js/jquery.js"></script>
-<script src="js/os.js"></script>
+&#60script src="js/jquery.js">&#60/script>
+&#60script src="js/os.js">&#60/script>
 </pre>
 
 also for the user interface you need to include the stylesheet in ./css/ directory like
 <pre>
-	<link rel="stylesheet" href="css/os.css">
+	&#60link rel="stylesheet" href="css/os.css">
 </pre>
 
 **To create a tile**
 All tiles come under the **div class="panel"** like
 <pre>
-	<div class="panels">
-		<div class="sec half">
-		<div>item 1 of the sample is nice</div>
-		<div>item 2 of the sample is nice</div>
-		<div>item 3 of the sample is nice</div>
-	</div>
-	<div class="sec half">
-		<div>item 1 of the sample is nice</div>
-		<div>item 2 of the sample is nice</div>
-		<div>item 3 of the sample is nice</div>
-	</div>
-	</div>
+	&#60div class="panels">
+		&#60div class="sec half">
+			&#60div>item 1 of the sample is nice</div>
+			div>item 2 of the sample is nice</div>
+			&#60div>item 3 of the sample is nice</div>
+		&#60/div>
+		&#60div class="sec half">
+			&#60div>item 1 of the sample is nice</div>
+			&#60div>item 2 of the sample is nice</div>
+			&#60div>item 3 of the sample is nice</div>
+		&#60/div>
+	&#60/div>
 </pre>
 
 **explanation**
