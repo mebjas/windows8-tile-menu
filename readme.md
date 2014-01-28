@@ -5,13 +5,7 @@ windows8 tile menu
 
 **How to use**
 
-you need to include the scripts in ./js/ directory like
-<pre>
-&#60script src="js/jquery.js">&#60/script>
-&#60script src="js/os.js">&#60/script>
-</pre>
-
-also for the user interface you need to include the stylesheet in ./css/ directory like
+for the user interface you need to include the stylesheet in ./css/ directory like
 <pre>
 	&#60link rel="stylesheet" href="css/os.css">
 </pre>
@@ -33,6 +27,15 @@ All tiles come under the **div class="panel"** like
 	&#60/div>
 </pre>
 
+
+you need to include the scripts in ./js/ directory like
+<pre>
+&#60script src="js/jquery.js">&#60/script>
+&#60script src="js/os.js">&#60/script>
+&#60script
+	$(".panels").winify({freq:7000});
+&#60/script
+</pre>
 **explanation**
 the one with **sec half** are half tiles and the **div** inside that tags are swapped time to time
 similarly one with **sec full** form the full sized tiles
