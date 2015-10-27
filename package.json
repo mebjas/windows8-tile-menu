@@ -1,0 +1,29 @@
+{
+    "name": "win8-tile-menu",
+    "title": "jQuery windows 8 tile menu",
+    "description": "jQuery plugin to create windows 8 like menu, with tile transitions",
+    "keywords": [
+        "jquery-plugin",
+        "ecosystem:jquery",
+        "windows",
+        "windows8",
+        "tiles",
+        "menu"
+    ],
+    "version": "1.1.1",
+    "author": {
+        "name": "minhaz",
+        "url": "https://minhaz.cistoner.org/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/mebjas/windows8-tile-menu/blob/master/license.md"
+        }
+    ],
+    "bugs": "https://github.com/mebjas/windows8-tile-menu/issues",
+    "homepage": "http://cistoner.org/sample/windows8-tile-menu/",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
